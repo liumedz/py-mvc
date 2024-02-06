@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 
 
-class ControlerRegistry(BaseHTTPRequestHandler):
+class ControllerRegistry(BaseHTTPRequestHandler):
 
     controllers = {}
 
